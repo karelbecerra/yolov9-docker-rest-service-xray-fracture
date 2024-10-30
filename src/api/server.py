@@ -6,5 +6,5 @@ logger = logging.getLogger("uvicorn")
 from fastapi import FastAPI
 
 def start():
-  logger.info("Azyri AI Server - starting")
+  logger.info("AI Server - starting")
   return FastAPI()

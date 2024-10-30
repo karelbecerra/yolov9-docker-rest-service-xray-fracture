@@ -6,7 +6,7 @@ Production ready YoloV9 REST Service for x-ray fracture detection
 ## Clone this repo
 
 ``` shell
-git clone https://github.com/AzyriAI/yolov9-docker-rest-service-xray-fracture.git
+git clone https://github.com/karelbecerra/yolov9-docker-rest-service-xray-fracture.git
 cd yolov9-docker-rest-service-xray-fracture
 ```
 
@@ -49,7 +49,7 @@ You shoud see a similar output
 ``` shell
 Fusing layers... 
 yolov9-c summary: 962 layers, 51018070 parameters, 0 gradients, 239.0 GFLOPs
-INFO:     Azyri AI Server - starting
+INFO:     AI Server - starting
 INFO:     AI Server - init api v1
 INFO:     Started server process [61457]
 INFO:     Waiting for application startup.
@@ -64,17 +64,17 @@ Example with fra1.png:
 ``` shell
 curl -X POST http://localhost:3100/v1/fracture/predict \
 -H "Content-Type: application/json" \
--d '{"imageUrl": "https://github.com/AzyriAI/ai-ml-dl-samples/blob/main/data/fracture/fra1.png?raw=true"}'
+-d '{"imageUrl": "https://github.com/karelbecerra/ai-ml-dl-samples/blob/main/data/fracture/fra1.png?raw=true"}'
 ```
 
 Example with fra2.png:
 ``` shell
 curl -X POST http://localhost:3100/v1/fracture/predict \
 -H "Content-Type: application/json" \
--d '{"imageUrl": "https://github.com/AzyriAI/ai-ml-dl-samples/blob/main/data/fracture/fra2.png?raw=true"}'
+-d '{"imageUrl": "https://github.com/karelbecerra/ai-ml-dl-samples/blob/main/data/fracture/fra2.png?raw=true"}'
 ```
 
-You can find some x-rays to test your own local server in https://github.com/AzyriAI/ai-ml-dl-samples/tree/main/data/fracture
+You can find some x-rays to test your own local server in https://github.com/karelbecerrra/ai-ml-dl-samples/tree/main/data/fracture
 
 # Check your result
 After running your prediction and if everything went well you should get a response similar to this

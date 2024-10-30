@@ -12,7 +12,7 @@ def init_api_v1(server, model):
   logger.info("AI Server - init api v1")
   
   # Input: A remote url containing the x-ray image
-  #        Example: https://github.com/AzyriAI/ai-ml-dl-samples/blob/main/data/fracture/fra1.png?raw=true
+  #        Example: https://github.com/karelbecerra/ai-ml-dl-samples/blob/main/data/fracture/fra1.png?raw=true
   #
   # Output: Returns a local url
   #        Example: http://localhost:3100/v1/fracture/prediction/ro44gpsizt2w0jxtcnvt.png
