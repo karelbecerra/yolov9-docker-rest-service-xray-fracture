@@ -1,0 +1,4 @@
+config:
+model: best.pt
+half: False
+
